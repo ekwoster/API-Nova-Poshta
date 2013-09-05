@@ -169,6 +169,17 @@
 		$xml = simplexml_load_string(NP::send($xml));
 		return($xml);
 	}
-
-		 
+	/**
+	*	Функция, преобразовывает резултат работы запроса city в структурированный по областям массив
+	*/
+	public static function cities_array(){
+		$cities=NP::city();
+		$states_cities=array();
+		foreach($cities->result->cities->city as $city){
+			if(!isset($states_cities[trim($city->areaNameUkr)]))
+				$states_cities[trim($city->areaNameUkr)]=array();
+			$states_cities[trim($city->areaNameUkr)][]=trim($city->nameUkr);
+		}
+		return $states_cities;
+	}		 
  }
