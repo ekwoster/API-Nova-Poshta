@@ -1,3 +1,5 @@
 PHP класс для работы с API Новой почты.
 
 Позволяет расчитывать стоимость доставки, создавать декларацию на отправку, удалять декларацию на отправку, получать список городов и складов.
+
+<iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/embed/donate.xml?uid=41001156079219&amp;default-sum=33&amp;targets=%D0%9A%D0%BB%D0%B0%D1%81%D1%81+%D0%B4%D0%BB%D1%8F+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B+%D1%81+API+%D0%9D%D0%BE%D0%B2%D0%BE%D0%B9+%D0%BF%D0%BE%D1%87%D1%82%D1%8B&amp;project-name=%D0%9A%D0%BB%D0%B0%D1%81%D1%81+%D0%B4%D0%BB%D1%8F+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B+%D1%81+API+%D0%9D%D0%BE%D0%B2%D0%BE%D0%B9+%D0%BF%D0%BE%D1%87%D1%82%D1%8B&amp;project-site=https%3A%2F%2Fgithub.com%2Fkozachenko%2FAPI-Nova-Poshta&amp;button-text=05&amp;hint=" width="450" height="105"></iframe>
