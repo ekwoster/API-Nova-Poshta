@@ -4,10 +4,9 @@ PHP класс для работы с API Новой почты.
 
 Дискуссия о работе и применении класса в жизни: http://htmler.ru/2013/08/28/api-novoy-pochtyi-delaem-vse-dela/
 
-<iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/embed/small.xml?uid=41001156079219&amp;button-text=06&amp;button-size=s&amp;button-color=white&amp;targets=API+%D0%9D%D0%BE%D0%B2%D0%BE%D0%B9+%D0%BF%D0%BE%D1%87%D1%82%D1%8B&amp;default-sum=33" width="auto" height="31"></iframe>
-
-<script src="paypal-button.min.js?merchant=AQlnARBcq_XBegpEreiPYivwyuKWU6MJ61Sqbjn_OJgK4QLNMQhncxQkovrU"
-    data-button="Donate"
-    data-name="API New Post Class"
-    data-amount="1.00"
-></script>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="TDU9YCRL3G946">
+<input type="image" src="https://www.paypalobjects.com/ru_RU/RU/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal — более безопасный и легкий способ оплаты через Интернет!">
+<img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="1" height="1">
+</form>
