@@ -2,4 +2,14 @@ PHP класс для работы с API Новой почты.
 
 Позволяет расчитывать стоимость доставки, создавать декларацию на отправку, удалять декларацию на отправку, получать список городов и складов.
 
-<iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/embed/donate.xml?uid=41001156079219&amp;default-sum=33&amp;targets=%D0%9A%D0%BB%D0%B0%D1%81%D1%81+%D0%B4%D0%BB%D1%8F+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B+%D1%81+API+%D0%9D%D0%BE%D0%B2%D0%BE%D0%B9+%D0%BF%D0%BE%D1%87%D1%82%D1%8B&amp;project-name=%D0%9A%D0%BB%D0%B0%D1%81%D1%81+%D0%B4%D0%BB%D1%8F+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B+%D1%81+API+%D0%9D%D0%BE%D0%B2%D0%BE%D0%B9+%D0%BF%D0%BE%D1%87%D1%82%D1%8B&amp;project-site=https%3A%2F%2Fgithub.com%2Fkozachenko%2FAPI-Nova-Poshta&amp;button-text=05&amp;hint=" width="450" height="105"></iframe>
+<link rel="stylesheet" href="https://money.yandex.ru/css/ui/widgets/b-widget-donate.css?ver=1">
+
+<div class="b-widget-donate"><form method="POST" target="_blank" action="">
+<input name="receiver" type="hidden" value="41001156079219"><input name="label" value="" type="hidden"><input name="FormComment" type="hidden" value="Класс для работы с API Новой почты"><input name="short-dest" type="hidden" value="Класс для работы с API Новой почты"><input name="writable-targets" type="hidden" value="false"><input name="writable-sum" type="hidden" value="true"><input name="comment-needed" type="hidden" value="false"><input name="quickpay-form" type="hidden" value="donate"><input name="targets" type="hidden" value="Класс для работы с API Новой почты"><div style="width: 100px;" class="b-input-text b-input-text_1 b-input-text_inline">
+<input class="b-input-text__input" name="sum" style="text-align: right;" type="text" maxlength="10" value="33"><span class="b-widget-donate__currency">
+						руб.
+					</span>
+</div>
+<span class="b-button b-button_1 b-button_orange" data-block="b-button"><span class="b-button__inner">Поддержать</span><input type="button" value="Поддержать" class="b-button__input" name="submit-button"></span><a class="b-widget-donate__logo-link" target="_blank" href="https://money.yandex.ru/"><img class="b-widget-donate__logo-img" src="/img/ym_logo.gif" height="32px" alt="Yandex.Money"></a><div class="b-widget-donate__project-name">Перевод проекту <a target="_blank" href="https://github.com/kozachenko/API-Nova-Poshta">Класс для работы с API Новой почты</a>
+</div>
+</form></div>
