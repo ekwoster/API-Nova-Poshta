@@ -237,7 +237,7 @@ class NP {
   }
 
   /**
-   * A request for a list of NovaPoshta warehouses for a particular city.
+   * A request for getting a list of NovaPoshta warehouses by particular city.
    *
    * Or a complete list, if the city is not specified.
    *
@@ -262,9 +262,8 @@ class NP {
     return($xml);
   }
 
-
   /**
-   * A request for a list of settlements, which have a NovaPoshta warehouses.
+   * A request for getting a list of settlements, which have a NovaPoshta warehouses.
    */
   public static function city() {
     $xml = '<?xml version="1.0" encoding="utf-8"?>';
@@ -275,6 +274,7 @@ class NP {
     $xml = simplexml_load_string(NP::send($xml));
     return($xml);
   }
+  
   /**
    * Results converter.
    *
